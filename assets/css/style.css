@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.card {
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+    border-radius: 5%;
+}
+
+.card:hover {
+    box-shadow: 0 0 38px 19px rgb(73, 73, 73);
+}
+
+.min-100vh {
+    min-height: 100vh;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.p-1 {
+    font-size: 42px;
+    padding-top: 30px;
+}
+
+.pt-60 {
+    padding-top: 60px;
+}
+
+.button-1 {
+    display: inline-flex;
+    padding: 8px 28px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 42px;
+    background: #2C49FE;
+    cursor: pointer;
+}
+
+.button-1:hover {
+    box-shadow: 0 0 8px 9px rgb(165, 164, 164);
+}
+
+.text-1 {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    margin-top: 42px;
+    border: none;
+}
+
+.button-2 {
+    display: inline-flex;
+    padding: 8px 39px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 42px;
+    background: #2C49FE;
+    cursor: pointer;
+    border: none;
+}
+
+.button-2:hover {
+    box-shadow: 0 0 8px 9px rgb(165, 164, 164);
+}
+
+.gap-10 {
+    gap: 10px;
+}
+
+.p-2 {
+    font-size: 34px;
+    padding-top: 34px;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
+    top: -22px;
+    right: 32px;
+}
+
+.button2 {
+    display: inline-flex;
+    padding: 8px 24px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 42px;
+    background: #2C49FE;
+    cursor: pointer;
+    border: none;
+}
+
+.button2:hover {
+    box-shadow: 0 0 8px 9px rgb(165, 164, 164);
+}
+
+.button-2-disabled {
+    width: 118px;
+    height: 46px;
+    padding: 11px 28px 11px 28px;
+    border-radius: 23px;
+    border: none;
+    cursor: not-allowed;
+    background-color: gray;
+    opacity: 0.2;
+    color: #fff;
+}
+
+.textsaved {
+    font-size: 35px;
+    text-align: center;
+    padding-top: 24px;
+}
